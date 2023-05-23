@@ -1,0 +1,41 @@
+CHEATSHEET GIT GITHUB
+
+1. Clonar un repositorio existente:
+   $ git clone <URL del repositorio>
+   Este comando se utiliza para crear una copia local de un repositorio remoto. Se especifica la URL del repositorio que deseas clonar.
+
+2. Crear un nuevo repositorio local:
+   $ git init
+   Este comando se utiliza para crear un nuevo repositorio local en el directorio actual. Crea una nueva carpeta oculta llamada ".git" que contiene todos los archivos necesarios para el control de versiones.
+
+3. Verificar el estado del repositorio:
+   $ git status
+   Este comando muestra el estado actual del repositorio. Muestra los archivos modificados, eliminados o añadidos, así como las ramas activas y otros detalles relevantes.
+
+4. Agregar cambios al área de preparación:
+   $ git add <nombre del archivo>
+   Este comando se utiliza para agregar cambios específicos al área de preparación. Puedes especificar el nombre del archivo o utilizar "." para agregar todos los archivos modificados.
+
+5. Confirmar cambios:
+   $ git commit -m "mensaje del commit"
+   Este comando se utiliza para confirmar los cambios y crear un nuevo commit en el repositorio. Se debe proporcionar un mensaje descriptivo que explique los cambios realizados.
+
+6. Enviar cambios al repositorio remoto:
+   $ git push
+   Este comando se utiliza para enviar los commits realizados en el repositorio local al repositorio remoto. Los cambios se reflejarán en la rama actual del repositorio remoto.
+
+7. Actualizar el repositorio local:
+   $ git pull
+   Este comando se utiliza para actualizar el repositorio local con los cambios más recientes del repositorio remoto. Descarga y fusiona los commits remotos en la rama actual.
+
+8. Cambiar de rama:
+   $ git checkout <nombre de la rama>
+   Este comando se utiliza para cambiar de rama en el repositorio. Se debe especificar el nombre de la rama a la que deseas cambiar.
+
+9. Fusionar ramas:
+   $ git merge <nombre de la rama>
+   Este comando se utiliza para fusionar una rama específica con la rama actual. Los cambios realizados en la rama especificada se integran en la rama actual.
+
+10. Ver historial de commits:
+    $ git log
+    Este comando muestra el historial de commits realizados en el repositorio. Muestra información como el autor del commit, la fecha, el mensaje y el identificador único del commit.
