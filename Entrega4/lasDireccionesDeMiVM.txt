@@ -1,0 +1,4 @@
+Ip privada de la maquina virtual: 192.168.0.42
+Ip publica de la maquina vtual: 192.168.0.45
+Direccion MAC de la maquina virtual: 08:00:27:9a:6d:ae
+Es diferente?: si son diferentes
